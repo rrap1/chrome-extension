@@ -1,21 +1,25 @@
 {
 "manifest_version": 3,
 "name": "Thirsty Turtle",
-"version": "1.0.0",
+"version": "1.0",
 "description" : "Wellness Reminder",
 "content_scripts": [
     {
         "matches": ["<all_urls>"],
         "css": ["style.css"],
-        "js": ["index.js"]
+        "js": ["./index.js"]
     }
 ]
 ,
-"icons":[
+
+"icons":
     {
-    "16": "dragon.png",
-    "32": "sea-turtle.png"
+    "16": "assets/turtle.png"
+   
     }
-]
+,
+"action":{
+    "default_popup": "index.html"
+  }
 
 }
