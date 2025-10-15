@@ -10,5 +10,12 @@
         "js": ["index.js"]
     }
 ]
+,
+"icons":[
+    {
+    "16": "dragon.png",
+    "32": "sea-turtle.png"
+    }
+]
 
 }
