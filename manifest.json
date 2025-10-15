@@ -1,0 +1,14 @@
+{
+"manifest_version": 3,
+"name": "Thirsty Turtle",
+"version": "1.0.0",
+"description" : "Wellness Reminder",
+"content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "css": ["style.css"],
+        "js": ["index.js"]
+    }
+]
+
+}
